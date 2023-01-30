@@ -1,0 +1,43 @@
+body{
+    background-color: aqua;
+}
+nav{
+    color: red;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+nav :hover{
+    color: black;
+    margin: 20spx;
+}
+.container{
+    width : 100vw;
+    height : 100vh;
+    display:flex;
+  }
+  .sub-container1{
+    flex : 1;
+    display:flex;
+    flex-direction : column;
+    background-color : aqua;
+  }
+  .item1{
+    flex:1;
+    background-color : #214585;
+    margin : 5%;
+    
+  }
+  .item2{
+    flex:1;
+    background-color : #548789;
+    margin : 5%;
+  }
+  .sub-container2{
+    flex:1;
+    display:flex;
+    background-color : aqua;
+  }
+  .item3{
+    flex:1;
+    background-color : #236589;
+    margin : 5%;
+  }

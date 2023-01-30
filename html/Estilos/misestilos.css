@@ -1,0 +1,24 @@
+section{
+    font-size: 20px;
+}
+p{
+    font-size: 36px;
+}
+section >p{
+    font-size: 20px;
+}
+#titulo{
+    font: bold 26px Verdana, sans-serif;
+}
+header{
+    margin: 30px;
+    padding: 15px;
+    text-align: center;
+    background-image: url("/Img/ladrillos.jpg");
+    transition:step-end ease-in-out 0s;
+    border: 2px solid;
+    border-radius: 20px 10px 30px 50px; 
+}
+header :hover{
+    transform: rotate(5deg);
+}

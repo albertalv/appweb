@@ -1,0 +1,13 @@
+#contenedor{
+    display: flex;
+    background-color: black;
+    
+}
+.caja{
+    background-color: beige;
+    display: flex;
+    padding: 10px;
+    text-align: center;
+    align-items: stretch;
+}
+
